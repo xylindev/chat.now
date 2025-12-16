@@ -1,0 +1,57 @@
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    
+    .project {
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding: 10px;
+        width: 60%;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    
+    .content {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .title {
+            font-size: 4rem;
+        }
+
+        .subtitle {
+            font-size: 2.5rem;
+            margin-top: 10px;
+        }
+
+        .made-by {
+            margin-top: 20px;
+            font-size: 1.25rem;
+        }
+
+        ul {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+
+        ul li {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 15px;
+            width: 15%;
+            text-align: center;
+            font-size: 1vmax;
+            font-weight: 500;
+        }
+    }
+}

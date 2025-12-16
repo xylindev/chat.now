@@ -1,0 +1,32 @@
+main {
+    height: 100vh;
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 30%;
+            padding: 15px;
+            background-color: transparent;
+            border: 2px solid var(--txt-light-color);
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            width: 30%;
+            padding: 15px;
+            border-radius: 20px;
+            background-color: transparent;
+            border: 2px solid var(--txt-light-color);
+        }
+    }
+}

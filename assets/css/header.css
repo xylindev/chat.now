@@ -1,0 +1,15 @@
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid var(--txt-light-color);
+
+    ul li {
+        background-color: var(--hd-dark-color);
+        color: var(--txt-dark-color);
+        padding: 15px;
+        border-radius: 20px;
+        font-weight: 500;
+    }
+}
