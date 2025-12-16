@@ -1,4 +1,4 @@
-# **Chat.Now**
+# **Chat.Now** *(inspirée de [discode](https://discode.dev/))*
 
 ## **Présentation du Projet**
 
